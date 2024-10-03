@@ -1,0 +1,3 @@
+org\ogrehus\core\user\domain\jpa\UserRepository.class
+org\ogrehus\core\user\domain\model\User.class
+org\ogrehus\core\user\domain\model\UserEntity.class
