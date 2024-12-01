@@ -23,27 +23,14 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd"
 >
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>org</groupId>
-	<artifactId>ogrehus</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
-	<packaging>pom</packaging>
+	<groupId>org.ogrehus.examples.faces</groupId>
+	<artifactId>helloWorld</artifactId>
+	<packaging>war</packaging>
 	
-	<modules>
-		<module>core</module>
-		<module>examples</module>
-		<module>foundation</module>
-		<module>yafm</module>
-	</modules>
-
-	<name>Ogrehus Jakarta Framework</name>
-	<description>Provides reusable code structures for jakarta applications</description>
-	<inceptionYear>2024</inceptionYear>
-
-	<properties>
-		<maven.compiler.source>22</maven.compiler.source>
-		<maven.compiler.target>22</maven.compiler.target>
-		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<failOnMissingWebXml>false</failOnMissingWebXml>
-	</properties>
-
+	<parent>
+		<groupId>org.ogrehus.examples</groupId>
+		<artifactId>faces</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+	</parent>
+	
 </project>

@@ -29,13 +29,12 @@
 	<packaging>pom</packaging>	
 
 	<parent>
-		<groupId>org.ogrehus</groupId>
+		<groupId>org</groupId>
 		<artifactId>ogrehus</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 	
 	<modules>
 		<module>user</module>
-<!--		<module>foundation</module> -->
 	</modules>
 </project>
